@@ -1,0 +1,29 @@
+iframe {
+    border-bottom: 0.25rem solid #fc0;
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+    
+  }  
+
+  /* MOBILE */
+@media screen and (max-width: 768px) {
+    iframe {
+        aspect-ratio: 3 /2;   
+    }
+     
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    iframe {
+        aspect-ratio: 16 / 9;    
+}
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
+    iframe {
+        aspect-ratio: 16 / 9;
+    }      
+}
